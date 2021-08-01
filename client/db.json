@@ -1,0 +1,21 @@
+{
+  "student": [
+    {
+      "id": 1,
+      "stuname": "umesh patel",
+      "email": "umesh@patel.com"
+    },
+    {
+      "stuName": "",
+      "email": "rupesh@.com",
+      "stuname": "ram choudhary",
+      "id": 4
+    },
+    {
+      "stuName": "",
+      "email": "umeshpatel1.patel@gmail.com",
+      "stuname": "umesh patel",
+      "id": 5
+    }
+  ]
+}

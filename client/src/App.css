@@ -1,0 +1,373 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* mycss */
+.nav{
+  z-index: 1;
+  height: 50px;
+  
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  
+}
+.logon{
+  padding-left: 10px;
+  color: gray;
+  font-size: 30px;
+}
+.logon1{
+  padding-top: 3px;
+  padding-left: 10px;
+  color: skyblue;
+  font-size: 30px;
+}
+.navhover:hover{
+background-color: orange;
+color: white;
+}
+
+.signUp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 50px;
+}
+
+.signup-content {
+  background-color: yellowgreen;
+  box-shadow: 50px 50px 50px 50px ivory;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signin-content {
+  background-color: silver;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 10px 10px 10px gray;
+}
+.form-title {
+  font-weight: bold;
+  font-size: 50px;
+  text-shadow: magenta;
+  border-bottom: 4px solid violet;
+}
+.register-form {
+  margin: 10px;
+  border: none;
+  background-color: teal;
+  /* box-shadow: lightcoral; */
+  box-shadow: 5px 10px 18px red;
+}
+
+.form-group {
+  border: none;
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  /* border-bottom: 1px solid black; */
+}
+.material-icons-name {
+  font-size: 20px;
+  color: gray;
+  padding: 5px;
+  padding-right: 12px;
+}
+.inputs {
+  border: none;
+  border-bottom: 10px solid black;
+}
+.form-button {
+  margin-left: 10px;
+  padding: 10px;
+  color: chocolate;
+}
+.ragis {
+  padding: 10px;
+  color: blue;
+  background-color: crimson;
+}
+.loginbtn {
+  margin-left: 80px;
+}
+.icon {
+  font-size: 30px;
+  color: cyan;
+  font-size: 40px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-left: 7px;
+}
+.box1 {
+  background-color: wheat;
+  width: 400px;
+  height: 70px;
+  box-shadow: 10px 10px 10px 10px tomato;
+}
+
+.contact_form_container {
+  box-shadow: 10px 10px 20px 20px teal;
+}
+
+.contact_form_container {
+  background-color: whitesmoke;
+  margin-top: 80px;
+  height: 500px;
+  box-shadow: gray;
+}
+.contact_form_title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.input_field {
+  width: 300px;
+  height: 50px;
+}
+.contact_form_button {
+  margin-top: 30px;
+  margin-left: 470px;
+}
+
+textarea{
+  margin: 10px;
+  outline: none;
+}
+
+.home-page {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right, yellow 50%, white 50%);
+}
+
+.home-div {
+  height: 100%;
+}
+
+.wel {
+  padding-top: 300px;
+  padding-left: 720px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.we1 {
+  color: blue;
+}
+.we2 {
+  color: springgreen;
+}
+.we3 {
+  color: blueviolet;
+}
+.we4 {
+  color: tomato;
+}
+
+.wel2 {
+  font-size: 50px;
+  padding-left: 500px;
+}
+.hname {
+  padding-left: 660px;
+  font-size: 30px;
+}
+.logos {
+  width: 150px;
+  height: 150px;
+}
+.link {
+  border-bottom: none;
+  color: black;
+}
+.emp-profile {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  width: 1000px;
+  height: 600px;
+  box-shadow: 5px 10px 18px red;
+}
+.aboutform {
+  width: 100%;
+  height: 600px;
+  margin-top: 20px;
+}
+
+/* crud oparetion */
+.divcrud {
+  margin-top: 50px;
+  /* text-align: center; */
+}
+.mark {
+  color: blue;
+
+}
+.cButton {
+  margin-top: 50px;
+}
+.text-feild{
+  outline: none;
+}
+
+/* eroor page */
+#notfound {
+  position: relative;
+  height: 100vh;
+}
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.notfound {
+  max-width: 920px;
+  width: 100%;
+  line-height: 1.4;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.notfound .notfound-404 {
+  position: absolute;
+  height: 100px;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+  z-index: -1;
+}
+.notfound .notfound-404 h1 {
+  color: #ececec;
+  font-size: 276px;
+  font-weight: 900;
+  margin: 0px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.notfound h2 {
+  font-size: 46px;
+  color: black;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0px;
+}
+.notfound p {
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+.notfound a {
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #189cf0;
+  display: inline-block;
+  padding: 16px 38px;
+  border: 2px solid transparent;
+  border-radius: 40px;
+  color: #fff;
+  font-weight: 400;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+.notfound a:hover {
+  background-color: white;
+  border-color: #189cf0;
+  color: #189cf0;
+}
+
+@media only screen and(max-width:400px) {
+  .notfound .notfound-404 h1 {
+    font-size: 162px;
+  }
+  .notfound h2 {
+    font-size: 26px;
+  }
+}
+
+
+/* Todays plan css */
+.maintodays-plan{
+  box-shadow: 5px 10px 30px 20px brown;
+ 
+}
+.plan{
+  background-color: darkslategray;
+  
+}
+.today{
+margin-bottom: 30px;
+}
+
+.planinput{
+  background: transparent;
+  color:white;
+}
+
+.planinput:focus{
+  background: transparent;
+  color:white;
+}
+.todayplan{
+  background-color: darkorchid;
+  color: white;
+  height: 100px;
+}
+.planh2{
+  /* padding-top: 3px; */
+  font-size: 80px;
+}
